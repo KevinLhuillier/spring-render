@@ -13,6 +13,6 @@ public class TestController {
 
     @GetMapping
     public String list() {
-        return "Hello World!";
+        return "Hello World updated!";
     }
 }
