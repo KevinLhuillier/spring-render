@@ -1,0 +1,6 @@
+services:
+  server:
+    image: ghcr.io/kevinlhuillier/spring-render:latest
+    ports:
+      - 8080:80
+    pull_policy: always
